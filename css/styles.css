@@ -212,7 +212,6 @@ body {
     );
     box-shadow: 0 0 15px 5px #8d6e63;
 }
-/*
 #sidebar{
     background: linear-gradient(
         to top,
@@ -220,7 +219,7 @@ body {
         rgba(40, 167, 69, 0.7) 20%, 
         transparent 42%
     );
-}/*
+}
 
 
 
