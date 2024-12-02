@@ -153,7 +153,6 @@ body {
         border-color: transparent;
     }
 }
-
 /* clase para la linea de separacion*/
 .custom-line {
     border: 0;
@@ -161,8 +160,6 @@ body {
     box-shadow: 0 0 8px rgba(40, 167, 69, 0.7);
     margin: 5px 0;
 }
-
-
 /* Efecto hover para cambiar el fondo a gradiente con el color de cada apartado */
 .custom-apartado {
     background-color: transparent; /* Fondo transparente inicialmente */
@@ -202,7 +199,6 @@ body {
     );
     box-shadow: 0 0 15px 5px #ffc107;
 }
-
 #apartado4:hover {
     background: linear-gradient(
         to top,
@@ -219,6 +215,66 @@ body {
         rgba(40, 167, 69, 0.7) 20%, 
         transparent 42%
     );
+}
+#pro{
+    background: linear-gradient(
+        to top,
+        #ea7373 0%, 
+        rgba(255, 58, 58, 0.7) 0%, 
+        transparent 70%
+    );
+}
+#tab{
+    background: linear-gradient(
+        to top,
+        #ea73e2 0%, 
+        rgba(229, 58, 255, 0.7) 0%, 
+        transparent 65%
+    );
+    box-shadow: 0 0 10px 5px #7381ea;
+}
+#tab2{
+    background: linear-gradient(
+        to top,
+        #28a745 0%, 
+        rgba(40, 167, 69, 0.7) 0%, 
+        transparent 65%
+    );
+    box-shadow: 0 0 10px 5px #28a745;
+}
+#apart4 {
+    background: linear-gradient(
+        to top,
+        #8d6e63 0%, 
+        rgba(141, 110, 99, 0.6) 0%, 
+        transparent 87%
+    );
+}
+#apart3-3 {
+    background: linear-gradient(
+        to top,
+        #ffc107 0%, 
+        rgba(255, 193, 7, 0.6) 0%, 
+        transparent 45%
+    );
+}
+#apart3-3:hover {
+    
+    box-shadow: 0 0 15px 5px #ffc107;
+
+}
+#apart3-4 {
+    background: linear-gradient(
+        to top,
+        #28a745 0%, 
+        rgba(0, 167, 69, 0.7) 0%, 
+        transparent 45%
+    );
+}
+#apart3-4:hover {
+    
+    box-shadow: 0 0 15px 5px #28a745;
+
 }
 
 
