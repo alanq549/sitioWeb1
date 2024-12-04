@@ -331,6 +331,19 @@ body {
     }
 }
 
+.fade-in-left {
+    opacity: 0;
+    transform: translateX(-100px); /* Inicia fuera de pantalla a la izquierda */
+    animation: fadeInLeft 1.5s forwards;
+}
+
+@keyframes fadeInLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0); /* Termina en su posición original */
+    }
+}
+
 
 
 
