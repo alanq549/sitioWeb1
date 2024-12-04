@@ -31,4 +31,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Agregar evento al botón para alternar el sidebar
     toggleButton.addEventListener('click', toggleSidebar);
+
+    // Inicializar Typed.js
+    const options = {
+        strings: ["¡Bienvenido a mi página!", "Descubre contenido emocionante.", "Hazlo interactivo y atractivo."],
+        typeSpeed: 50,
+        backSpeed: 25,
+        loop: true
+    };
+
+    new Typed('#typing-effect h1', options); // Inicializa Typed.js correctamente
 });
